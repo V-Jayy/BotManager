@@ -23,7 +23,7 @@ A production-ready Node.js application for managing multiple Discord bots with a
 ## Installation
 
 **Prerequisites:**
-- Node.js 16.0+ 
+- Node.js
 - Discord bot tokens
 
 **Setup:**
