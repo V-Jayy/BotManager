@@ -1,4 +1,5 @@
-![Discord Bot Manager]([https://i.postimg.cc/TwTP4drC/u2939295587-A-vast-starfield-in-deep-space-with-countless-tin-35149212-4975-4961-b744-b7e198b51abe-2.png))
+![Discord Bot Manager](https://i.postimg.cc/Xv1228BJ/ca2d4e40-fc7e-4a30-87b2-d887f997e9b1-1.png)
+
 
 # Discord Bot Manager
 
