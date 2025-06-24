@@ -1,0 +1,61 @@
+# Discord Bot Manager Configuration
+# Configure how the bot manager handles restarts, logging, and monitoring
+
+# Restart Settings
+restart:
+  # Maximum restart attempts before giving up (0 = infinite attempts)
+  max_attempts: 5
+  
+  # Delay in seconds before restarting a crashed bot
+  restart_delay: 3
+  
+  # Automatically start all bots when manager starts
+  autostart: true
+  
+  # Reset attempt counter after this many minutes of successful runtime
+  reset_counter_after_minutes: 30
+
+# Logging Settings  
+logging:
+  # Log normal bot operations (true/false)
+  log_normal_operations: false
+  
+  # Log errors and crashes (always recommended)
+  log_errors: true
+  
+  # Maximum number of log files to keep per bot (0 = unlimited)
+  max_log_files: 0
+  
+  # Log level: debug, info, warn, error
+  log_level: info
+  
+  # Include timestamps in console output
+  console_timestamps: true
+  
+  # Organize logs by date in subfolders
+  date_organized: true
+
+# Monitoring Settings
+monitoring:
+  # Show status updates every X seconds (0 = disabled)
+  status_interval: 60
+  
+  # Monitor memory usage and warn if above threshold (MB, 0 = disabled)
+  memory_warning_threshold: 500
+  
+  # Log bot performance metrics
+  performance_logging: true
+
+# Advanced Settings
+advanced:
+  # Grace period for bot shutdown in seconds
+  shutdown_grace_period: 5
+  
+  # Force kill timeout in seconds
+  force_kill_timeout: 10
+  
+  # Stagger bot starts by this many milliseconds
+  startup_delay: 500
+  
+  # Enable debug mode for troubleshooting
+  debug_mode: false 
